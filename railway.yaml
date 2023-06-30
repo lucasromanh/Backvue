@@ -1,6 +1,6 @@
 name: my-flask-app
 deployment:
-  image: python:3.10
+  image: python:3.10-slim  # O python:3.10-alpine
   command:
     - gunicorn
     - main:app
